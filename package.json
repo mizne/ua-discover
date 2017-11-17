@@ -1,0 +1,25 @@
+{
+  "name": "ua-discover",
+  "version": "1.0.1",
+  "description": "user agent discover",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizne/ua-discover.git"
+  },
+  "keywords": [
+    "ua",
+    "user-agent",
+    "detector",
+    "discover"
+  ],
+  "author": "mizne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mizne/ua-discover/issues"
+  },
+  "homepage": "https://github.com/mizne/ua-discover#readme"
+}
