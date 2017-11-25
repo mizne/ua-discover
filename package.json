@@ -1,6 +1,6 @@
 {
   "name": "ua-discover",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "user agent discover",
   "main": "dist/ua-discover.js",
   "module": "src/index.js",
