@@ -35,7 +35,18 @@ To use directly in the browser:
 ## Usage
 
 ```javascript
-  console.log(ua)
+  ua.browser.isAlipay;
+  ua.browser.isBrowser;
+  ua.browser.isMobile;
+  ua.browser.isQQ;
+  ua.browser.isWechat;
+  ua.browser.isWeibo;
+
+  ua.device.isAndroid;
+  ua.device.isIos;
+  ua.device.isIpad;
+  ua.device.isIpod;
+  ua.device.isIphon;
 ```
 
 
