@@ -6,7 +6,9 @@
   "module": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "git-push": "gulp git-push --msg"
+    "git-push": "gulp git-push",
+    "build": "webpack",
+    "publish": "npm run build && npm run git-push && npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
