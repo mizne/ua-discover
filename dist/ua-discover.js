@@ -88,10 +88,10 @@ var ua = window.navigator.userAgent;
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__lib_browser__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__lib_device__ = __webpack_require__(3);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "browser", function() { return __WEBPACK_IMPORTED_MODULE_0__lib_browser__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "device", function() { return __WEBPACK_IMPORTED_MODULE_1__lib_device__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core_browser__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core_device__ = __webpack_require__(3);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "browser", function() { return __WEBPACK_IMPORTED_MODULE_0__core_browser__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "device", function() { return __WEBPACK_IMPORTED_MODULE_1__core_device__["a"]; });
 
 
 

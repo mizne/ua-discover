@@ -3,7 +3,7 @@
   "version": "0.0.8",
   "description": "user agent discover",
   "main": "dist/ua-discover.js",
-  "module": "src/index.js",
+  "module": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "git-push": "gulp git-push",
