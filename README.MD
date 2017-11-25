@@ -1,4 +1,4 @@
-# angular-web-store
+# ua-discover
 
 ## Installation
 
