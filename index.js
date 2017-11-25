@@ -1,5 +1,5 @@
-const browser = require('./libs/browser')
-const device = require('./libs/device')
+const browser = require('./lib/browser')
+const device = require('./lib/device')
 
 module.exports = {
   browser,
