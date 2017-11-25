@@ -1,8 +1,10 @@
 {
   "name": "ua-discover",
-  "version": "0.0.12",
+  "version": "0.0.9",
   "description": "user agent discover",
   "main": "dist/ua-discover.js",
+  "module": "src/index.ts",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "git-push": "gulp git-push",
@@ -26,7 +28,6 @@
   },
   "homepage": "https://github.com/mizne/ua-discover#readme",
   "devDependencies": {
-    "clean-webpack-plugin": "^0.1.17",
     "gulp": "^3.9.1",
     "gulp-git": "^2.4.2",
     "minimist": "^1.2.0",
