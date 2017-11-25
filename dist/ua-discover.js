@@ -75,65 +75,71 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = window.navigator.userAgent
+"use strict";
+var ua = window.navigator.userAgent;
+/* harmony default export */ __webpack_exports__["a"] = (ua);
+
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-const browser = __webpack_require__(2)
-const device = __webpack_require__(3)
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__lib_browser__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__lib_device__ = __webpack_require__(3);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "browser", function() { return __WEBPACK_IMPORTED_MODULE_0__lib_browser__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "device", function() { return __WEBPACK_IMPORTED_MODULE_1__lib_device__["a"]; });
 
-module.exports = {
-  browser,
-  device
-}
+
+
+
 
 /***/ }),
 /* 2 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-const ua = __webpack_require__(0)
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ua__ = __webpack_require__(0);
 
-const isAlipay = /alipay/i.test(ua)
-const isBrowser = typeof window !== 'undefined'
-const isMobile = /mobile/i.test(ua)
-const isQQ = /qq/i.test(ua)
-const isWechat = /micromessenger/i.test(ua)
-const isWeibo = /weibo/i.test(ua)
+var isAlipay = /alipay/i.test(__WEBPACK_IMPORTED_MODULE_0__ua__["a" /* default */]);
+var isBrowser = typeof window !== 'undefined';
+var isMobile = /mobile/i.test(__WEBPACK_IMPORTED_MODULE_0__ua__["a" /* default */]);
+var isQQ = /qq/i.test(__WEBPACK_IMPORTED_MODULE_0__ua__["a" /* default */]);
+var isWechat = /micromessenger/i.test(__WEBPACK_IMPORTED_MODULE_0__ua__["a" /* default */]);
+var isWeibo = /weibo/i.test(__WEBPACK_IMPORTED_MODULE_0__ua__["a" /* default */]);
+/* harmony default export */ __webpack_exports__["a"] = ({
+    isAlipay: isAlipay,
+    isBrowser: isBrowser,
+    isMobile: isMobile,
+    isQQ: isQQ,
+    isWechat: isWechat,
+    isWeibo: isWeibo
+});
 
-module.exports = {
-  isAlipay,
-  isBrowser,
-  isMobile,
-  isQQ,
-  isWechat,
-  isWeibo
-}
 
 /***/ }),
 /* 3 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-const ua = __webpack_require__(0)
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ua__ = __webpack_require__(0);
 
-const isAndroid = /(Android);?[\s/]+([\d.]+)?/.test(ua)
-const isIpad = /(iPad).*OS\s([\d_]+)/.test(ua)
-const isIpod = /(iPod)(.*OS\s([\d_]+))?/.test(ua)
-const isIphone = !isIpad && /(iPhone\sOS)\s([\d_]+)/.test(ua)
-const isIos = /(iPhone|iPad|iPod|iOS)/i.test(ua)
-const os = isAndroid ? 'android' : (isIos ? 'ios' : 'other')
+var isAndroid = /(Android);?[\s/]+([\d.]+)?/.test(__WEBPACK_IMPORTED_MODULE_0__ua__["a" /* default */]);
+var isIpad = /(iPad).*OS\s([\d_]+)/.test(__WEBPACK_IMPORTED_MODULE_0__ua__["a" /* default */]);
+var isIpod = /(iPod)(.*OS\s([\d_]+))?/.test(__WEBPACK_IMPORTED_MODULE_0__ua__["a" /* default */]);
+var isIphone = !isIpad && /(iPhone\sOS)\s([\d_]+)/.test(__WEBPACK_IMPORTED_MODULE_0__ua__["a" /* default */]);
+var isIos = /(iPhone|iPad|iPod|iOS)/i.test(__WEBPACK_IMPORTED_MODULE_0__ua__["a" /* default */]);
+/* harmony default export */ __webpack_exports__["a"] = ({
+    isAndroid: isAndroid,
+    isIos: isIos,
+    isIpad: isIpad,
+    isIpod: isIpod,
+    isIphone: isIphone
+});
 
-module.exports = {
-  os,
-  isAndroid,
-  isIos,
-  isIpad,
-  isIpod,
-  isIphone
-}
 
 /***/ })
 /******/ ]);

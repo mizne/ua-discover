@@ -1,4 +1,4 @@
-const ua = require('./ua')
+import ua from './ua'
 
 const isAlipay = /alipay/i.test(ua)
 const isBrowser = typeof window !== 'undefined'
@@ -7,7 +7,7 @@ const isQQ = /qq/i.test(ua)
 const isWechat = /micromessenger/i.test(ua)
 const isWeibo = /weibo/i.test(ua)
 
-module.exports = {
+export default {
   isAlipay,
   isBrowser,
   isMobile,

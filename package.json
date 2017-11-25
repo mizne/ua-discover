@@ -27,6 +27,12 @@
   },
   "homepage": "https://github.com/mizne/ua-discover#readme",
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-git": "^2.4.2",
+    "minimist": "^1.2.0",
+    "run-sequence": "^2.2.0",
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.6.1",
     "webpack": "^3.8.1"
   }
 }
